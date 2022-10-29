@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Yasuo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+ <body>
+    <div class="img img1"></div>
+<div class="img img2"></div>
+<div class="img img3"></div>
+<div class="img img4"></div>
+<div class="img img7"></div>
+<div class="img img5"></div>
+
+<iframe width="700" height="370"
+src="https://www.youtube.com/embed/MFSGLtXFYNk" frameborder="1" allowfullscreen>
+</iframe>
+
+
+<div class="tekst tekst1">Podaj Masterie na Yasuo</div>
+<div class="tekst tekst2">Podaj Masterie na Yone</div>
+<div class="tekst tekst3">Witam</div>
+<div class="tekst tekst5">Podaj Liczbę Gier na Yasuo</div>
+
+<div class="tekst tekst7">1000-3000 Gej</div>
+<div class="tekst tekst8">3000-7000 Giga Gej</div>
+    <div class="tekst tekst9">7000-10000 Gej Jakich Malo</div>
+    <div class="tekst tekst10">Czy Lubię Yasuo?</div>
+
+<div class="tekst tekst4"><p id="wynik"></p></div>
+
+<div class="input input1"><input id="ida" /></div>
+
+   <div class="input input2"><input id="idb" /></div>
+
+   <div class="input input3"> <input id="idc" /> </div>
+      
+   <div class="checkbox">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"></label><br>
+  </div>
+   
+       <button class="button button1" onclick="delta()">Oblicz Gejowość</button>
+
+       <script>
+        function delta() {
+            let a, b, c, delta;
+            a = parseFloat(document.getElementById("ida").value);
+            b = parseFloat(document.getElementById("idb").value);
+            c = parseFloat(document.getElementById("idc").value);
+
+            delta = (a - b) / c;
+            document.getElementById("wynik").innerHTML = "Gejowość= " + delta; 
+        }
+        </script>
+       
+
+    </body>
+</html>
+
+
+
+
+

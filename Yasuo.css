@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins';
+}
+body{
+background-image: url(Yasuo.jpg);
+}
+img{
+    position: absolute;
+  height: 500px;
+  width: 500px;
+}
+.img1{
+    position: absolute;
+    height: 450px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 220px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 100px;
+    background-position: center;
+    background-size: cover;
+}
+.img1{
+background-image: url(Yas.jpg);
+}
+.img2{
+    position: absolute;
+    height: 450px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 220px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 1300px;
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background-image: url(Yone.png);
+}
+.img3{
+    position: absolute;
+    height: 700px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 220px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 500px 100px;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #110074;
+}
+.img3{
+    background-image: url(Czarno.png);
+}
+.img4{
+    position: absolute;
+    height: 700px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 220px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 500px 1300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #680063;
+}
+.img4{
+    background-image: url(Czarno1.png);
+}
+.img5{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 15px 220px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 1450px 200px;
+    background-position: center;
+    background-size: cover;
+}
+.img5{
+    background-image: url(Yasuo_0.jpg);
+}
+.img7{
+    position: absolute;
+    height: 450px;
+    width: 1500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 220px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 1425px 175px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #000000;
+}
+.img7{
+    background-image: url(Baner.png);
+}
+
+iframe{
+    position: absolute;
+    margin: 700px 575px;
+  }
+.tekst1{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin: 2675px 775px;
+}
+.tekst2{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin: 2875px 775px;
+}
+.tekst3{
+    color: rgba(255, 255, 255, 0);
+}
+.tekst4{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    position: absolute;
+    margin: 3200px 825px;
+}
+.tekst5{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin: 3050px 775px;
+}
+.tekst7{
+    font-size: 25px;
+    position: absolute;
+    margin: 2700px 1500px;
+}
+.tekst8{
+    font-size: 25px;
+    position: absolute;
+    margin: 2850px 1500px;
+}
+.tekst9{
+    font-size: 25px;
+    position: absolute;
+    margin: 3050px 1500px;
+}
+.tekst10{
+    font-size: 20px;
+    position: absolute;
+    margin: 2390px 800px;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.button1 {
+    position: absolute;
+    background-color: #6f4caf;
+    color: white;
+    border: 2px solid #6f4caf;
+    margin: 150px 750px;
+    font-size: 25px;
+  }
+  .button1:hover{
+    position: absolute;
+    background-color: #483075;
+    border-color: #483075;
+    transition: 1s;
+  }
+.checkbox{
+    position: absolute;
+    margin: -700px 775px;
+}
+input{
+    position: absolute;
+    font-size: 50px;
+    border-radius: 10px;
+background-color: #ffffff;
+    position: absolute;
+    color: black;
+    border: 2px solid #6f4caf; 
+}
+.input1{
+  margin: 2700px 625px;
+}
+.input2{
+   margin: 2900px 625px;
+}
+.input3{
+   margin: 3100px 625px;
+}
